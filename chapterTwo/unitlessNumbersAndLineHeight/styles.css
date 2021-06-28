@@ -1,0 +1,10 @@
+body {
+    /* line-height: 1.2em; */
+    line-height: 1.2;
+}
+
+.about-us {
+    font-size: 2em;
+}
+
+/* When you use a unitless number, that declared value is inherited, meaning its computed value is recalculated for each inheriting child element. */
