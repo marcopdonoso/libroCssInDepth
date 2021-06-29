@@ -1,0 +1,12 @@
+:root {
+    --main-font: Helvetica, Arial, sans-serif;
+    --brand-color: #369;
+}
+
+/* The var() function accepts a second parameter, which specifies a fallback value */
+p {
+    font-family: var(--main-font, sans-serif);
+    /* color: var(--brand-color); */
+    color: var(--secundary-color, blue);
+}
+
