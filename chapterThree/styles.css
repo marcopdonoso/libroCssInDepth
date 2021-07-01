@@ -24,26 +24,27 @@ main {
 } 
 
 .container {
-    display: table;
+    /* display: table;
     width: 100%;
-    border-spacing: 1.5em 0;
+    border-spacing: 1.5em 0; */
+    display: flex;
 }
 
-.wrapper {
+/* .wrapper {
     margin-left: -1.5em;
     margin-right: -1.5em;
-}
+} */
 
 .main {
-    display: table-cell;
-    /* float: left; */
+    /* display: table-cell; Esta linea pertenece al ejemplo de Table */
+    /* float: left; Esta linea pertenece al ejemplo de Float*/
     width: 70%;
     background-color: #fff;
     border-radius: .5em;
 }
 
 .sidebar {
-    display: table-cell;
+    /* display: table-cell; Esta linea pertenece al ejemplo de Table */
     /* float: left; */
     /* width: calc(30% - 1.5em); */
     width: 30%;
