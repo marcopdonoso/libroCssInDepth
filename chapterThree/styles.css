@@ -21,18 +21,32 @@ header {
 
 main {
     display: block;
+} 
+
+.container {
+    display: table;
+    width: 100%;
+    border-spacing: 1.5em 0;
+}
+
+.wrapper {
+    margin-left: -1.5em;
+    margin-right: -1.5em;
 }
 
 .main {
-    float: left;
+    display: table-cell;
+    /* float: left; */
     width: 70%;
     background-color: #fff;
     border-radius: .5em;
 }
 
 .sidebar {
-    float: left;
-    width: calc(30% - 1.5em);
+    display: table-cell;
+    /* float: left; */
+    /* width: calc(30% - 1.5em); */
+    width: 30%;
     margin-left: 1.5em;
     padding: 1.5em;
     background-color: #fff;
