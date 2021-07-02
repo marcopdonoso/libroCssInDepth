@@ -25,10 +25,6 @@ header {
     border-radius: .5em;
 }
 
-main {
-    display: block;
-} 
-
 .container {
     /* display: table;
     width: 100%;
@@ -72,9 +68,9 @@ main {
     text-transform: uppercase;
 }
 
-.button-link + .button-link {
+/* .button-link + .button-link {
     margin-top: 1.5em;
-}
+} */
 
 .sponsor-link {
     display: block;
